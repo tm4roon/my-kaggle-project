@@ -5,6 +5,3 @@ up:
 
 down: 
 	@docker compose down
-
-download:
-	@/bin/sh ./scripts/load_dataset.sh

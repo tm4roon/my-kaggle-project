@@ -4,6 +4,7 @@
 # Utilities
 # -----------------------------------------------------------------------------
 sudo apt install unzip
+sudo apt install make
 
 # -----------------------------------------------------------------------------
 # Python
@@ -12,7 +13,6 @@ sudo apt update
 sudo apt install -y python3-pip
 
 pip install cookiecutter 
-pip install kaggle
 
 export PATH=$HOME/.local/bin:$PATH
 echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc

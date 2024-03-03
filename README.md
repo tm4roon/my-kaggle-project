@@ -1,6 +1,6 @@
 # My Kaggle Project
 
-Kaggleのプロジェクトを管理するためのリポジトリテンプレート。
+Kaggle用開発環境や実験管理リポジトリをコマンド一つで構築できる、プロジェクト雛形。
 
 
 ## 想定動作環境
@@ -33,16 +33,3 @@ cookiecutter my-kaggle-project
 <p align="center">
 <img width=500 src=/images/example_cookiecutter_setup.png>
 </p>
-
-#### コンペティションデータセットのダウンロード
-以下のコマンドを実行することで、コンペティションデータセットを手元の環境にダウンロードできます。
-
-```bash
-cd practice_titanic
-make download
-```
-<p align="center">
-<img width=500 src=/images/example_make_download.png>
-</p>
-
-
