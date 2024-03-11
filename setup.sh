@@ -15,7 +15,7 @@ sudo apt install -y python3-pip
 pip install cookiecutter 
 
 export PATH=$HOME/.local/bin:$PATH
-echo "export PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc
+echo -e "\nexport PATH=$HOME/.local/bin:$PATH" >> $HOME/.bashrc
 
 # -----------------------------------------------------------------------------
 # Docker
