@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 **/.virtual_documents
+workspace/input/**
+workspace/output/**
